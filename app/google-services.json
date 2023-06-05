@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "479407896087",
+    "project_id": "green-message-d3375",
+    "storage_bucket": "green-message-d3375.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479407896087:android:390cbac055bdcaa13f4e52",
+        "android_client_info": {
+          "package_name": "com.example.greenmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479407896087-iedeh40r1cms5bhlajofbtmp8nlgnjt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozBhQbi4zlYi4YeeJJ1JiYcdCWonkgqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479407896087-iedeh40r1cms5bhlajofbtmp8nlgnjt1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479407896087-cnt2esk0mo2sfoibj0di5k6r4pcd2i7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "GreenMesseger"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

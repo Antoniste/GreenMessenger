@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.greenmessenger.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_userPersonalFregment"
+            app:destination="@id/userPersonalFregment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.greenmessenger.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/userPersonalFregment"
+        android:name="com.example.greenmessenger.UserPersonalFragment"
+        android:label="fragment_user_personal_fregment"
+        tools:layout="@layout/fragment_user_personal_fregment" >
+        <action
+            android:id="@+id/action_userPersonalFregment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+    </fragment>
+</navigation>
